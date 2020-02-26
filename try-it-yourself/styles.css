@@ -1,0 +1,84 @@
+/* Table of Contents for Display Grid Workshop: Positoning by Lines
+  A) Global Setup
+  1) Container
+  2) Boxes
+  3) Colors
+*/
+
+/* A) Global Setup */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+/* - */
+
+/* 1) Container (Grid Wrapper) */
+.container {
+  /* filler */
+  background: url(painting.jpg) no-repeat;
+  background-size: contain;
+  width: 1000px;
+  height: 605px;
+  margin: 0 auto;
+  /* - */
+}
+
+/* 2) Boxes  */
+[class*="box-"] {
+  background-color: white;
+  opacity: 0.5; /* So we can see the image behind it */
+}
+
+.box-1 {
+}
+
+.box-2 {
+}
+
+.box-3 {
+}
+
+.box-4 {
+}
+
+.box-5 {
+}
+
+.box-6 {
+}
+
+.box-7 {
+}
+
+.box-8 {
+}
+
+.box-9 {
+}
+
+.box-10 {
+}
+
+.box-11 {
+}
+
+.box-12 {
+}
+
+/* 3) Colors */
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}

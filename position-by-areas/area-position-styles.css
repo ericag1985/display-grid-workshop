@@ -19,9 +19,7 @@ body {
 
 /* 1) Container (Grid Wrapper) */
 .container {
-  /* filler to get the background image */
-  background: url(painting.jpg) no-repeat;
-  background-size: contain;
+  /* filler */
   width: 1000px;
   height: 605px;
   margin: 0 auto;
@@ -55,7 +53,7 @@ body {
 /* 2) Boxes  */
 [class*="box-"] {
   background-color: white;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 /* Grid Areas must be unique per container to use in grid-template-areas */
