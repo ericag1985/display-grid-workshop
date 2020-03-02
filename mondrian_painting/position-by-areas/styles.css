@@ -1,4 +1,4 @@
-/* Table of Contents for Display Grid Workshop: Positoning by Lines
+/* Table of Contents for Display Grid Workshop: Positoning by Areas
   A) Global Setup
   1) Container
   2) Boxes
@@ -53,7 +53,6 @@ body {
 /* 2) Boxes  */
 [class*="box-"] {
   background-color: white;
-  /* opacity: 0.5; */
 }
 
 /* Grid Areas must be unique per container to use in grid-template-areas */

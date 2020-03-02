@@ -1,0 +1,61 @@
+/* Table of Contents for Display Grid Workshop: Layout Example
+  A) Global Setup
+  1) Container
+  2) Tags
+*/
+
+/* A) Global Setup */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* - */
+
+/* 1) Container (Grid Wrapper) */
+.container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, auto);
+
+  grid-template-areas:
+    "header header"
+    "section sidebar"
+    "footer footer";
+}
+
+/* 2) Tags */
+header {
+  background-color: lightcoral;
+  height: 5vh;
+
+  grid-area: header;
+}
+
+aside {
+  background-color: lightblue;
+  height: 70vh;
+
+  grid-area: sidebar;
+}
+
+section {
+  background-color: lightgray;
+  height: 80vh;
+
+  grid-area: section;
+}
+
+footer {
+  background-color: lightslategrey;
+  height: 15vh;
+
+  grid-area: footer;
+}

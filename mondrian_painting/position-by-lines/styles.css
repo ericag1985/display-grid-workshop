@@ -20,8 +20,6 @@ body {
 /* 1) Container (Grid Wrapper) */
 .container {
   /* filler to get the background image */
-  background: url(painting.jpg) no-repeat;
-  background-size: contain;
   width: 1000px;
   height: 605px;
   margin: 0 auto;
@@ -42,7 +40,6 @@ body {
 /* 2) Boxes  */
 [class*="box-"] {
   background-color: white;
-  /* opacity: 0.5; */
 }
 
 .box-1 {
@@ -53,8 +50,6 @@ body {
   /* grid-column: 1 / span 2; */
 
   /* - Alternative 2: separating the values above - */
-  /* grid-column-start: 1;
-  grid-column-end: 3; */
 
   grid-row: 1 / 3;
 
