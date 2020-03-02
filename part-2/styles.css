@@ -2,7 +2,7 @@
   A) Global Setup
   1) Container
   2) Boxes
-  3) Colors
+  3) Color Options
 */
 
 /* A) Global Setup */
@@ -30,7 +30,8 @@ body {
 
 /* 2) Boxes  */
 [class*="box-"] {
-  background-color: white;
+  background-color: var(--box-background);
+  color: var(--font-color);
   opacity: 0.5; /* So we can see the image behind it */
 }
 
@@ -70,15 +71,16 @@ body {
 .box-12 {
 }
 
-/* 3) Colors */
+/* 3) Color Options */
 .red {
-  background-color: red;
+  --box-background: red;
 }
 
 .blue {
-  background-color: blue;
+  --box-background: blue;
+  --font-color: white;
 }
 
 .yellow {
-  background-color: yellow;
+  --box-background: yellow;
 }

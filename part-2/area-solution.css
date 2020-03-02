@@ -2,10 +2,15 @@
   A) Global Setup
   1) Container
   2) Boxes
-  3) Colors
+  3) Color Options
 */
 
 /* A) Global Setup */
+:root {
+  --box-background: white;
+  --font-color: black;
+}
+
 *,
 *:after,
 *:before {
@@ -48,7 +53,8 @@ body {
 
 /* 2) Boxes  */
 [class*="box-"] {
-  background-color: white;
+  background-color: var(--box-background);
+  color: var(--font-color);
 }
 
 /* Grid Areas must be unique per container to use in grid-template-areas */
@@ -100,15 +106,16 @@ body {
   grid-area: box-12;
 }
 
-/* 3) Colors */
+/* 3) Color Options */
 .red {
-  background-color: red;
+  --box-background: red;
 }
 
 .blue {
-  background-color: blue;
+  --box-background: blue;
+  --font-color: white;
 }
 
 .yellow {
-  background-color: yellow;
+  --box-background: yellow;
 }
