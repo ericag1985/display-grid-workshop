@@ -9,9 +9,13 @@
 
 - Get a generic layout to display in display grid using both line position and area positioning to better learn two basic ways of working with Display: Grid.
 
+![Piet Mondrian Painting](/part-1/basic-layout.jpg)
+
 #### Part 2: Making Modern Art
 
 - Select a method learned in Part 1 and use it to recreate a painting from Piet Mondrain in the browser.
+
+![Piet Mondrian Painting](/part-2/painting-backdrop.jpg)
 
 ### Further CSS Grid Resources
 
