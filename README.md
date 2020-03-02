@@ -18,3 +18,4 @@
 - [CSS Tricks Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid Garden Game](https://cssgridgarden.com/)
 - [Grid Examples](https://gridbyexample.com/examples/)
+- [Supporting Grid in IE11](https://medium.com/@elad/supporting-css-grid-in-internet-explorer-b38669e75d66)
