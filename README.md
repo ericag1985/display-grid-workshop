@@ -12,3 +12,9 @@
 #### Part 2: Making Modern Art
 
 - Select a method learned in Part 1 and use it to recreate a painting from Piet Mondrain in the browser.
+
+### Further CSS Grid Resources
+
+- [CSS Tricks Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid Garden Game](https://cssgridgarden.com/)
+- [Grid Examples](https://gridbyexample.com/examples/)
