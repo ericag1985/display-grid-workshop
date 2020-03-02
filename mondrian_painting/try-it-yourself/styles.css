@@ -20,7 +20,7 @@ body {
 /* 1) Container (Grid Wrapper) */
 .container {
   /* filler */
-  background: url(painting.jpg) no-repeat;
+  background: url(painting-backdrop.jpg) no-repeat;
   background-size: contain;
   width: 1000px;
   height: 605px;
