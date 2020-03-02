@@ -36,11 +36,7 @@ body {
   grid-template-columns: 268px 74px 46px 228px 22px 94px 148px;
   grid-template-rows: 47px 45px 215px 116px 27px 52px;
 
-  /* If the container is spanning the entire row or column, you can just write the area name once. 
-    - IE: 
-    "header" 
-    "box-1 box-1 box-2 box-2 box-2 box-2 box-3"
-  */
+  /* Grid areas must print out the blue print of the grid in order to be a valid value */
   grid-template-areas:
     "box-1 box-1 box-2 box-2 box-2 box-2 box-3"
     "box-1 box-1 box-6 box-6 box-7 box-7 box-3"
