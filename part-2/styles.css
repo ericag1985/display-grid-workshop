@@ -27,6 +27,10 @@ body {
   height: 605px;
   margin: 0 auto;
   /* - */
+
+  /* 7 Columns/6 Rows - (Provided for you in interest of time) */
+  grid-template-columns: 268px 74px 46px 228px 22px 94px 148px;
+  grid-template-rows: 47px 45px 215px 116px 27px 52px;
 }
 
 /* 2) Boxes  */
